@@ -92,7 +92,7 @@
                     with a heart for the Community.
                     <br>
                     As well as a Web Developer I also have a large knowledge of <a href="https://discordjs.org">Discord.JS</a>, making Bots for Clients.
-	                I am also Technical Support for a Hosting Provider called <a href="https://programonce.co.uk" target="_blank"></a>. We provide: Domains, Hosting, Discord Bots and much more so go check it out.
+	                I am also Technical Support for a Hosting Provider called <a href="https://programonce.co.uk" target="_blank">https://programonce.co.uk</a>. We provide: Domains, Hosting, Discord Bots and much more so go check it out.
                 </p>
             </div>
             
@@ -287,6 +287,17 @@
             Developed by <a href="https://huckinb.com/">Brandon</a>
         </div>
     </div>
+    <hr class="bg-white">
+    <div class="credits">
+        @auth
+            <a href="{{ route('admin.dashboard.index') }}">Dashboard</a>
+        @else
+            <a href="{{ route('login') }}">Login</a>
+        
+            @if (Route::has('register'))
+                <a href="{{ route('register') }}">Register</a>
+            @endif
+        @endauth
     </div>
 </footer><!-- End  Footer -->
 
