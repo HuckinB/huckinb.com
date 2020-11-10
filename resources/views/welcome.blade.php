@@ -23,7 +23,6 @@
     <link href="{{ asset('vendor/venobox/venobox.css') }}" rel="stylesheet">
     <link href="{{ asset('vendor/owl.carousel/assets/owl.carousel.min.css') }}" rel="stylesheet">
     <link href="{{ asset('vendor/aos/aos.css') }}" rel="stylesheet">
-    
     <link href="{{ asset('css/style.css') }}" rel="stylesheet">
     
     <script src="{{ asset('vendor/jquery/jquery.min.js') }}"></script>
@@ -59,7 +58,7 @@
             <ul>
                 <li class="active"><a href="#home"><i class="bx bx-home"></i> <span>Home</span></a></li>
                 <li><a href="#about"><i class="bx bx-user"></i> <span>About</span></a></li>
-                <li><a href="#resume"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+                <li><a href="#resume"><i class="bx bx-file-blank"></i> <span>CV</span></a></li>
                 <li><a href="#contact"><i class="bx bx-envelope"></i> Contact</a></li>
             
             </ul>
@@ -146,21 +145,30 @@
                 <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
                     <h3 class="resume-title">Professional Experience</h3>
                     <div class="resume-item">
-                        <h4>Manager / Lead Developer</h4>
+                        <h4>General Manager / Web Developer</h4>
+                        <h5>2018 - Present</h5>
+                        <p><em><a href="https://rtlvtc.dev" target="_blank">Relaxed Truckers</a></em></p>
+                        <ul>
+                            <li>Manage our community members and ensure all our rules are being followed.</li>
+                            <li>Developing the website as well as designing and making a Staff Panel for our Members.</li>
+                        </ul>
+                    </div>
+                    <div class="resume-item">
+                        <h4>Head / Full Stack Developer</h4>
                         <h5>2019 - Present</h5>
-                        <p><em><a href="https://simulatorhits.com">SimulatorHits.com</a></em></p>
+                        <p><em><a href="https://simulatorhits.com" target="_blank">SimulatorHits.com</a></em></p>
                         <ul>
                             <li>Leading the Development Team, ensuring tasks are complete to a high standard and on time.</li>
                             <li>Managing the Staff Team, assisting Presenters with there Shows as well as handling Support Tickets.</li>
                         </ul>
                     </div>
                     <div class="resume-item">
-                        <h4>COO / Web Developer</h4>
-	                    <h5>2018 - Present</h5>
-                        <p><em>Relaxed Truckers</em></p>
+                        <h4>Bot Developer</h4>
+	                    <h5>2020 - Present</h5>
+                        <p><em><a href="#" disabled="" target="_blank">TruckSpaceGroup</a></em></p>
                         <ul>
-                            <li>Manage our community members and ensure all our rules are being followed.</li>
-                            <li>Developing the website as well as designing and making a Staff Panel for our Members.</li>
+                            <li>Creating a Discord Bot that can be used in both TruckSpace Guilds as well as public guilds.</li>
+                            <li>Create Bug Reports as well as suggest new features to the team.</li>
                         </ul>
                     </div>
                 </div>
@@ -286,6 +294,20 @@
         <div class="credits">
             Developed by <a href="https://huckinb.com/">Brandon</a>
         </div>
+    </div>
+    <hr class="bg-white">
+    <div class="credits">
+        @auth
+            <a href="{{ route('admin.dashboard.index') }}">Dashboard</a>
+            <span> | </span>
+            <a href="{{ Auth::logout() }}">Logout</a>
+        @else
+            <a href="{{ route('login') }}">Login</a>
+        
+            @if (Route::has('register'))
+                <a href="{{ route('register') }}">Register</a>
+            @endif
+        @endauth
     </div>
 </footer><!-- End  Footer -->
 
