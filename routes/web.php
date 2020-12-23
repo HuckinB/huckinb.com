@@ -20,6 +20,6 @@ Route::get('/', function () {
 Route::post('contact/store', 'ContactController@store')
     ->name('contact.store');
 
-Auth::routes();
+Auth::routes(['register' => false]);
 
 Route::get('/home', 'HomeController@index')->name('home');
