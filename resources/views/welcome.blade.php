@@ -4,18 +4,18 @@
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    
+
     <title>Brandon Huckin</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
-    
+
     <!-- Favicons -->
     <link href="{{ asset('img/favicon.png') }}" rel="icon">
     <link href="{{ asset('img/apple-touch-icon.png') }}" rel="apple-touch-icon">
-    
+
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-    
+
     <!-- Vendor CSS Files -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link href="{{ asset('vendor/icofont/icofont.min.css') }}" rel="stylesheet">
@@ -24,10 +24,10 @@
     <link href="{{ asset('vendor/owl.carousel/assets/owl.carousel.min.css') }}" rel="stylesheet">
     <link href="{{ asset('vendor/aos/aos.css') }}" rel="stylesheet">
     <link href="{{ asset('css/style.css') }}" rel="stylesheet">
-    
+
     <script src="{{ asset('vendor/jquery/jquery.min.js') }}"></script>
     <script src="{{ asset('vendor/bootstrap-notify/bootstrap-notify.js') }}"></script>
-    
+
     <!-- Font Awesome CSS -->
     <link rel="stylesheet" href="https://kit-pro.fontawesome.com/releases/latest/css/pro.min.css" media="all">
     <link rel="stylesheet" href="https://kit-pro.fontawesome.com/releases/latest/css/pro-v4-font-face.min.css" media="all">
@@ -35,13 +35,10 @@
 </head>
 
 <body>
-
 <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
-
-<!-- ======= Header ======= -->
 <header id="header">
     <div class="d-flex flex-column">
-        
+
         <div class="profile">
             <img src="{{ asset('img/Brandon_Huckin.jpg') }}" alt="" class="img-fluid rounded-circle">
             <h1 class="text-light"><a href="{{ route('welcome') }}">Brandon Huckin</a></h1>
@@ -53,37 +50,28 @@
                 <a href="https://www.github.com/HuckinB" target="_blank"><i class="fab fa-github fa-fw"></i></a>
             </div>
         </div>
-        
         <nav class="nav-menu">
             <ul>
                 <li class="active"><a href="#home"><i class="bx bx-home"></i> <span>Home</span></a></li>
                 <li><a href="#about"><i class="bx bx-user"></i> <span>About</span></a></li>
                 <li><a href="#resume"><i class="bx bx-file-blank"></i> <span>CV</span></a></li>
                 <li><a href="#contact"><i class="bx bx-envelope"></i> Contact</a></li>
-            
             </ul>
-        </nav><!-- .nav-menu -->
+        </nav>
         <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
-    
     </div>
-</header><!-- End Header -->
+</header>
 
 @include('layouts.alerts')
-
-<!-- ======= Hero Section ======= -->
 <section id="home" class="d-flex flex-column justify-content-center align-items-center">
     <div class="hero-container" data-aos="fade-in">
         <h1>Brandon Huckin</h1>
         <p><span class="typed" data-typed-items="Discord.JS, Laravel, PHP, SQL, Gamer, Developer"></span></p>
     </div>
-</section><!-- End Hero -->
-
+</section>
 <main id="main">
-    
-    <!-- ======= About Section ======= -->
     <section id="about" class="about">
         <div class="container">
-            
             <div class="section-title">
                 <h2>About</h2>
                 <p>My names Brandon, I'm {{ \Carbon\Carbon::createFromDate(2002, 02, 19)->diffInYears() }} and a Full-Stack Laravel Developer for
@@ -94,7 +82,6 @@
 	                I am also Technical Support for a Hosting Provider called <a href="https://programonce.co.uk" target="_blank">ProgramOnce</a>. We provide: Domains, Hosting, Discord Bots and much more so go check it out.
                 </p>
             </div>
-            
             <div class="row">
                 <div class="col-lg-3" data-aos="fade-right">
                     <img src="{{ asset('img/Brandon_Huckin.jpg') }}" class="img-fluid" alt="">
@@ -119,17 +106,12 @@
                     </div>
                 </div>
             </div>
-        
         </div>
-    </section><!-- End About Section -->
-	
-    <!-- ======= Resume Section ======= -->
+    </section>
     <section id="resume" class="resume">
         <div class="container">
-            
             <div class="row">
                 <div class="col-lg-6" data-aos="fade-up">
-                    
                     <h3 class="resume-title">Education</h3>
 	                <div class="resume-item">
 		                <h4>Level 2 Diploma in Motor Vehicle</h4>
@@ -163,6 +145,16 @@
                         </ul>
                     </div>
                     <div class="resume-item">
+                        <h4>Developer</h4>
+	                    <h5>2020 - Present</h5>
+                        <p><em><a href="https://truckspace.group/" target="_blank">TruckSpaceGroup</a></em></p>
+                        <ul>
+                            <li>Creating a Discord Bot that can be used in both TruckSpace Guilds as well as public guilds.</li>
+                            <li>Completing tasks given on our Project Management Panel.</li>
+                            <li>Create Bug Reports as well as suggest new features to the team.</li>
+                        </ul>
+                    </div>
+                    <div class="resume-item">
                         <h4>Bot Developer</h4>
 	                    <h5>2020 - Present</h5>
                         <p><em><a href="#" disabled="" target="_blank">TruckSpaceGroup</a></em></p>
@@ -173,35 +165,24 @@
                     </div>
                 </div>
             </div>
-        
         </div>
-    </section><!-- End Resume Section -->
-    
-    <!-- ======= Testimonials Section ======= -->
+    </section>
     <section id="testimonials" class="testimonials section-bg">
         <div class="container">
-            
             <div class="section-title">
                 <h2>Testimonials | Reviews</h2>
                 <p>Here is some reviews from previous and current clients and friends.</p>
             </div>
-            
             <h3>Coming Soon</h3>
-        
         </div>
-    </section><!-- End Testimonials Section -->
-    
-    <!-- ======= Contact Section ======= -->
+    </section>
     <section id="contact" class="contact">
         <div class="container">
-            
             <div class="section-title">
                 <h2>Contact</h2>
                 <p>Want to enquire or ask a question? Reach out to me via any of the methods below or fill in the contact form and I will get back to you as soon as I can!</p>
             </div>
-            
             <div class="row align-self-center" data-aos="fade-in">
-                
                 <div class="col-lg-5 align-items-stretch">
                     <div class="info">
                         <div class="email">
@@ -209,23 +190,18 @@
                             <h4>Email:</h4>
                             <p><a href="mailto:brandon@huckinb.com">brandon@huckinb.com</a></p>
                         </div>
-                        
                         <div class="phone">
                             <i class="fad fa-phone fa-fw"></i>
                             <h4>Call:</h4>
                             <p><a href="tel:+447749733594">+44 7749 733594</a></p>
                         </div>
-                        
                         <div class="discord">
                             <i class="fab fa-discord fa-fw"></i>
                             <h4>Discord:</h4>
                             <p><a href="https://discord.com/users/228575716214702080">HuckinB#0001</a></p>
                         </div>
-                        
                      </div>
-                
                 </div>
-                
                 <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
                     {!! Form::open(['route' => ['contact.store'], 'method' => 'POST']) !!}
                         <div class="form-row">
@@ -277,15 +253,10 @@
                         </div>
                     {!! Form::close() !!}
                 </div>
-            
             </div>
-        
         </div>
-    </section><!-- End Contact Section -->
-
-</main><!-- End #main -->
-
-<!-- ======= Footer ======= -->
+    </section>
+</main>
 <footer id="footer">
     <div class="container">
         <div class="copyright">
@@ -298,22 +269,17 @@
     <hr class="bg-white">
     <div class="credits">
         @auth
-            <a href="{{ route('admin.dashboard.index') }}">Dashboard</a>
-            <span> | </span>
             <a href="{{ Auth::logout() }}">Logout</a>
         @else
             <a href="{{ route('login') }}">Login</a>
-        
             @if (Route::has('register'))
                 <a href="{{ route('register') }}">Register</a>
             @endif
         @endauth
     </div>
-</footer><!-- End  Footer -->
+</footer>
 
 <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
-
-<!-- Vendor JS Files -->
 <script src="{{ asset('js/app.js') }}"></script>
 <script src="{{ asset('vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
 <script src="{{ asset('vendor/jquery.easing/jquery.easing.min.js') }}"></script>
@@ -326,9 +292,6 @@
 <script src="{{ asset('vendor/typed.js/typed.min.js') }}"></script>
 <script src="{{ asset('vendor/aos/aos.js') }}"></script>
 
-<!-- Template Main JS File -->
 <script src="{{ asset('js/main.js') }}"></script>
-
 </body>
-
 </html>

@@ -17,8 +17,7 @@ Route::get('/', function () {
     return view('welcome');
 })->name('welcome');
 
-Route::post('contact/store', 'ContactController@store')
-    ->name('contact.store');
+Route::resource('contact', 'ContactController');
 
 Auth::routes(['register' => false]);
 
