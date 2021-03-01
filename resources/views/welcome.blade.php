@@ -79,7 +79,6 @@
                     with a heart for the Community.
                     <br>
                     As well as a Web Developer I also have a large knowledge of <a href="https://discordjs.org">Discord.JS</a>, making Bots for Clients.
-	                I am also Technical Support for a Hosting Provider called <a href="https://programonce.co.uk" target="_blank">ProgramOnce</a>. We provide: Domains, Hosting, Discord Bots and much more so go check it out.
                 </p>
             </div>
             <div class="row">
