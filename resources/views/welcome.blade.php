@@ -92,13 +92,13 @@
                             <ul>
                                 <li><i class="icofont-rounded-right"></i> <strong>Birthday:</strong> 19 Feb 2002</li>
                                 <li><i class="icofont-rounded-right"></i> <strong>Website:</strong> www.huckinb.com</li>
-                                <li><i class="icofont-rounded-right"></i> <strong>Phone:</strong> <a href="tel:07749733594"></a> 07749733594</li>
+                                <li><i class="icofont-rounded-right"></i> <strong>Phone:</strong> <a href="tel:07749733594">07749733594</a></li>
                             </ul>
                         </div>
                         <div class="col-lg-auto">
                             <ul>
                                 <li><i class="icofont-rounded-right"></i> <strong>Age:</strong> {{ \Carbon\Carbon::createFromDate(2002, 02, 19)->diffInYears() }}</li>
-                                <li><i class="icofont-rounded-right"></i> <strong>Email:</strong> <a href="mailto:brandon@huckinb.com"></a>brandon@huckinb.com</li>
+                                <li><i class="icofont-rounded-right"></i> <strong>Email:</strong> <a href="mailto:brandon@huckinb.com">brandon@huckinb.com</a></li>
                                 <li><i class="icofont-rounded-right"></i> <strong>Location:</strong> Oxford, United Kingdom</li>
                             </ul>
                         </div>
@@ -150,15 +150,6 @@
                         <ul>
                             <li>Creating a Discord Bot that can be used in both TruckSpace Guilds as well as public guilds.</li>
                             <li>Completing tasks given on our Project Management Panel.</li>
-                            <li>Create Bug Reports as well as suggest new features to the team.</li>
-                        </ul>
-                    </div>
-                    <div class="resume-item">
-                        <h4>Bot Developer</h4>
-	                    <h5>2020 - Present</h5>
-                        <p><em><a href="#" disabled="" target="_blank">TruckSpaceGroup</a></em></p>
-                        <ul>
-                            <li>Creating a Discord Bot that can be used in both TruckSpace Guilds as well as public guilds.</li>
                             <li>Create Bug Reports as well as suggest new features to the team.</li>
                         </ul>
                     </div>
