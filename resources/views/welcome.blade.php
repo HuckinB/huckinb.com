@@ -146,7 +146,7 @@
                     <div class="resume-item">
                         <h4>Developer</h4>
 	                    <h5>2020 - Present</h5>
-                        <p><em><a href="https://truckspace.group/" target="_blank">TruckSpaceGroup</a></em></p>
+                        <p><em><a href="https://truckspace.group/" target="_blank">Truckspace Group</a></em></p>
                         <ul>
                             <li>Creating a Discord Bot that can be used in both TruckSpace Guilds as well as public guilds.</li>
                             <li>Completing tasks given on our Project Management Panel.</li>
