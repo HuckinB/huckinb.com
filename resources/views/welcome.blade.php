@@ -122,6 +122,43 @@
 			                Second Two years developing the skills I had previously learnt, gaining knowledge and experience focusing on Vehicle Electrical Systems such as ADAS.
 		                </p>
 	                </div>
+                    <h3 class="resume-title">Career History</h3>
+	                <div class="resume-item">
+		                <h4>MFA Bowl - (Liquidisation)</h4>
+		                <h5>Jan 2017 - Nov 2018</h5>
+		                <p><em>Staff Member</em></p>
+		                <p>
+			                Managing Phone and Counter bookings, serving on the Bar as well as running food from the kitchen.
+                            <br>
+                            Party Host for parties, being the go-to person for the party. Answering any queries the party has and making sure they have a smooth booking.
+                            <br>
+                            I was also being taught how to service the lanes to help the business grow and be able to train others in the future.
+		                </p>
+	                </div>
+	                <div class="resume-item">
+		                <h4>McDonalds - (Left Position)</h4>
+		                <h5>Oct 2020 - Apr 2022</h5>
+		                <p><em>Crew Member</em></p>
+		                <p>
+			                Taking Orders and Payments from customers as well as handling complaints. Also running the kitchen by myself during the overnight hours.
+                            <br>
+                            Following Health & Safety Compliances by doing periodic checks of the store. Doing Daily/Monthly Cleans that require special training.
+                            <br>
+                            Managing Inventory Count and the handover of deliveries from our Supplier.
+		                </p>
+	                </div>
+	                <div class="resume-item">
+		                <h4>TheLight Cinemas</h4>
+		                <h5>Apr 2022 - Present</h5>
+		                <p><em>Experienced Team Member</em></p>
+		                <p>
+			                Host for our Diner, taking orders and running food to our guests.
+                            <br>
+                            Bar Work, serving Guests from Soft Drinks to Cocktails.
+                            <br>
+                            Training new staff as well as supporting the team to be the best that they can.
+		                </p>
+	                </div>
                 </div>
                 <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
                     <h3 class="resume-title">Professional Experience</h3>
@@ -145,12 +182,30 @@
                     </div>
                     <div class="resume-item">
                         <h4>Developer</h4>
-	                    <h5>2020 - Present</h5>
+	                    <h5>2020 - Jan 2022</h5>
                         <p><em><a href="https://truckspace.group/" target="_blank">Truckspace Group</a></em></p>
                         <ul>
                             <li>Creating a Discord Bot that can be used in both TruckSpace Guilds as well as public guilds.</li>
                             <li>Completing tasks given on our Project Management Panel.</li>
                             <li>Create Bug Reports as well as suggest new features to the team.</li>
+                        </ul>
+                    </div>
+                    <div class="resume-item">
+                        <h4>Developer</h4>
+	                    <h5>Feb 2022 - Present</h5>
+                        <p><em><a href="https://nexustransport.co.uk/" target="_blank">NexusTransport</a></em></p>
+                        <ul>
+                            <li>Creating a Full Suite Drivers Hub.</li>
+                            <li>Managing Suggestions and Feature Requests.</li>
+                        </ul>
+                    </div>
+                    <div class="resume-item">
+                        <h4>Community Owner / Developer</h4>
+	                    <h5>Jun 2022 - Present</h5>
+                        <p><em><a href="https://nexusgaminggroup.co.uk/" target="_blank">NexusGamingGroup</a></em></p>
+                        <ul>
+                            <li>Overseeing / Managing all our Web and Game Servers.</li>
+                            <li>Ensuring the community is up to date with Games and Security.</li>
                         </ul>
                     </div>
                 </div>
