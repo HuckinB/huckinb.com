@@ -66,7 +66,7 @@
 <section id="home" class="d-flex flex-column justify-content-center align-items-center">
     <div class="hero-container" data-aos="fade-in">
         <h1>Brandon Huckin</h1>
-        <p><span class="typed" data-typed-items="Discord.JS, Laravel, PHP, SQL, Gamer, Developer"></span></p>
+        <p><span class="typed" data-typed-items="Discord.JS, Laravel, PHP, SQL, Gamer, Developer, Kyle Python for Life"></span></p>
     </div>
 </section>
 <main id="main">
