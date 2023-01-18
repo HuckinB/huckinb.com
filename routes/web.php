@@ -17,6 +17,8 @@ Route::get('/', function () {
     return view('welcome');
 })->name('welcome');
 
+Route::view('metar', 'metar')->name('metar');
+
 Route::resource('contact', 'ContactController');
 
 Auth::routes(['register' => false]);
