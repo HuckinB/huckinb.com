@@ -56,6 +56,7 @@
                 <li><a href="#about"><i class="bx bx-user"></i> <span>About</span></a></li>
                 <li><a href="#resume"><i class="bx bx-file-blank"></i> <span>CV</span></a></li>
                 <li><a href="#contact"><i class="bx bx-envelope"></i> Contact</a></li>
+                <li><a href="{{ route('metar') }}"><i class="bx bx-plane"></i> Metar</a></li>
             </ul>
         </nav>
         <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
@@ -119,8 +120,20 @@
 		                <p>
 			                First Year learning the basics of how to maintain a vehicle and carry out maintenance.
 			                <br>
-			                Second Two years developing the skills I had previously learnt, gaining knowledge and experience focusing on Vehicle Electrical Systems such as ADAS.
+			                Second Two years developing the skills I had previously learnt, gaining knowledge and experience focusing on Vehicle Electrical Systems such as ADAS and the concept of LIDAR.
 		                </p>
+	                </div>
+                    <h3 class="resume-title">Career</h3>
+	                <div class="resume-item">
+		                <h4>Crew Member</h4>
+		                <h5>2020 - Present</h5>
+		                <p><em>McDonalds</em></p>
+		                <ul>
+                            <li>Working in the kitchen preparing food.</li>
+                            <li>Serving orders at the Drive Thru and Front Counter.</li>
+                            <li>Taking orders and payments at the Drive Thru and Front Counter.</li>
+                            <li>Closing the store, ensuring all machinery is turned off and cleaned.</li>
+                        </ul>
 	                </div>
                 </div>
                 <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
