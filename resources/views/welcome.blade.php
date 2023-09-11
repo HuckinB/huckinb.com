@@ -126,13 +126,23 @@
                     <h3 class="resume-title">Career</h3>
 	                <div class="resume-item">
 		                <h4>Crew Member</h4>
-		                <h5>2020 - Present</h5>
+		                <h5>2020 - 2022</h5>
 		                <p><em>McDonalds</em></p>
 		                <ul>
                             <li>Working in the kitchen preparing food.</li>
                             <li>Serving orders at the Drive Thru and Front Counter.</li>
                             <li>Taking orders and payments at the Drive Thru and Front Counter.</li>
                             <li>Closing the store, ensuring all machinery is turned off and cleaned.</li>
+                        </ul>
+	                </div>
+	                <div class="resume-item">
+		                <h4>Experienced Team Member</h4>
+		                <h5>2022 - Present</h5>
+		                <p><em>TheLight Cinema</em></p>
+		                <ul>
+                            <li>Ensuring the upkeep of our Bowling Lanes and completing maintainence tasks.</li>
+                            <li>Supporting the Kitchen during busy periods as well as waiting for tables.</li>
+                            <li>Ensuring the safety of customers while they use our Climing Wall and as well as perform Rescues where necessary.</li>
                         </ul>
 	                </div>
                 </div>
@@ -158,12 +168,21 @@
                     </div>
                     <div class="resume-item">
                         <h4>Developer</h4>
-	                    <h5>2020 - Present</h5>
+	                    <h5>2020 - 2022</h5>
                         <p><em><a href="https://truckspace.group/" target="_blank">Truckspace Group</a></em></p>
                         <ul>
                             <li>Creating a Discord Bot that can be used in both TruckSpace Guilds as well as public guilds.</li>
                             <li>Completing tasks given on our Project Management Panel.</li>
                             <li>Create Bug Reports as well as suggest new features to the team.</li>
+                        </ul>
+                    </div>
+                    <div class="resume-item">
+                        <h4>Support / Developer</h4>
+	                    <h5>2023 - Present</h5>
+                        <p><em><a href="https://tracksim.app/" target="_blank">TrackSim</a></em></p>
+                        <ul>
+                            <li>Handling Support Tickets resolving issues and bug reports.</li>
+                            <li>Focussing on smaller tasks to allow the Dev Team to focus on bigger tasks.</li>
                         </ul>
                     </div>
                 </div>
